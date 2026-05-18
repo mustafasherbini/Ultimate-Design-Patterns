@@ -1,3 +1,6 @@
+<img width="1360" height="1160" alt="image" src="https://github.com/user-attachments/assets/10f4e8e8-f8b7-43eb-bc02-08caea3f0357" />
+
+
 # Observer Pattern
 
 Implementation of the Observer design pattern in C++ and C#.
@@ -33,3 +36,5 @@ A blog management system where:
 - Interface/abstract class for loose coupling
 - Subscribe and unsubscribe without modifying the Subject
 - Open/Closed Principle — add new subscriber types without changing BlogManagement
+
+
