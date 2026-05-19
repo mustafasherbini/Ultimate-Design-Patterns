@@ -44,10 +44,6 @@ class BlogManagement {
     map<NotifyEvents, vector<ISubscriber*>> eventSubscribers;
 
 public:
-    BlogManagement() {
-        eventSubscribers[BlogPostEvent]         = vector<ISubscriber*>();
-        eventSubscribers[WeeklyNewsletterEvent] = vector<ISubscriber*>();
-    }
 
     void subscribe(NotifyEvents event, ISubscriber* person) {
         eventSubscribers[event].push_back(person);
