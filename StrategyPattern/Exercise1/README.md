@@ -23,7 +23,7 @@ A notification service that supports multiple channels:
 
 ## UML Diagram
 
-![Strategy Pattern UML](uml.png)
+<img width="1440" height="1120" alt="uml" src="https://github.com/user-attachments/assets/5eae4350-73bc-422a-a552-ae98c4b13feb" />
 
 ## Files
 
