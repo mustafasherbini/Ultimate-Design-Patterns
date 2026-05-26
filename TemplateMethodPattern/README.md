@@ -50,10 +50,15 @@ A video editing preset system where:
 
 ---
 
+## UML
+<img width="2460" height="1860" alt="diagram_highres" src="https://github.com/user-attachments/assets/df4b119c-3587-413f-8553-652b2296e12e" />
+
 ## Files
 
 cpp/template_method.cpp      → C++ implementation
+
 csharp/TemplateMethod.cs     → C# implementation
+
 differences.md               → Key differences between C++ and C#
 
 ---
