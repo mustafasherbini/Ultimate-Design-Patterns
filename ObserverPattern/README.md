@@ -1,4 +1,3 @@
-<img width="1360" height="1160" alt="uml" src="https://github.com/user-attachments/assets/988e8211-aa1e-4331-8f91-f847a3720e98" />
 
 
 # Observer Pattern
@@ -23,6 +22,8 @@ A blog management system where:
 - Authors can publish blog posts or weekly newsletters
 - Subscribers can subscribe/unsubscribe to specific event types
 - Each subscriber is notified only for events they subscribed to
+
+<img width="1360" height="1160" alt="uml" src="https://github.com/user-attachments/assets/988e8211-aa1e-4331-8f91-f847a3720e98" />
 
 ## Files
 
