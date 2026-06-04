@@ -5,6 +5,9 @@ Implementation of the Memento design pattern in C++ and C#.
 ## Pattern Overview
 The Memento pattern is a behavioral design pattern that allows capturing and externalizing an object's internal state without violating encapsulation, so that the object can be restored to this state later (Undo/Redo mechanics).
 
+## UML
+<img width="700" height="560" alt="gemini-svg" src="https://github.com/user-attachments/assets/8c0f2499-108b-46cf-8b62-23d139effc5e" />
+
 ## Structure
 * **Originator (`Canvas`)**: The actual application object whose state needs saving/restoring.
 * **Memento (`CanvasMemento`)**: A snapshot carrier containing the state of the Canvas. It is strictly encapsulated from outside modifications.
