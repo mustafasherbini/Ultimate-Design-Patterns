@@ -4,6 +4,8 @@ Implementation of the Visitor design pattern in C++ and C#.
 
 ## Pattern Overview
 The Visitor pattern is a behavioral design pattern that allows adding new operations to an existing object structure without modifying the structures themselves. It achieves this by shifting operational logic into external visitor classes utilizing double-dispatch mechanics.
+## UML
+<img width="2500" height="1875" alt="gemini-svg" src="https://github.com/user-attachments/assets/8cb1981c-fe25-42a9-9000-ae92d26a5c40" />
 
 ## Structure
 * **Element (`IDocument`)**: Declares an accept method that takes a visitor as an argument.
