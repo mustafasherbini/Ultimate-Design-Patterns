@@ -12,7 +12,7 @@ In this exercise, the pattern is used to iterate through social media profiles s
 
 ## UML
 
-gemini-svg
+<img width="3125" height="2031" alt="gemini-svg (2)" src="https://github.com/user-attachments/assets/8863589a-f321-4bd0-a178-a3c0f21d3ba0" />
 
 ## Structure
 
