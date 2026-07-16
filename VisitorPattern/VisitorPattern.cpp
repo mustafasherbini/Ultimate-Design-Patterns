@@ -22,28 +22,24 @@ public:
 
 class TextFile : public IDocument {
 public:
-    ~TextFile() override = default;
     
     void accept(IDocumentVisitor* visitor) override;
 };
 
 class Spreadsheet : public IDocument {
 public:
-    ~Spreadsheet() override = default;
     
     void accept(IDocumentVisitor* visitor) override;
 };
 
 class PresentationFile : public IDocument {
 public:
-    ~PresentationFile() override = default;
     
     void accept(IDocumentVisitor* visitor) override;
 };
 
 class WordCounter : public IDocumentVisitor {
 public:
-    ~WordCounter() override = default;
 
     void visit(TextFile* document) override {
         std::cout << "WordCounter -> TextFile\n";
@@ -58,7 +54,6 @@ public:
 
 class TextExtractor : public IDocumentVisitor {
 public:
-    ~TextExtractor() override = default;
 
     void visit(TextFile* document) override {
         std::cout << "TextExtractor -> TextFile\n";
@@ -73,7 +68,6 @@ public:
 
 class FormatAnalyzer : public IDocumentVisitor {
 public:
-    ~FormatAnalyzer() override = default;
 
     void visit(TextFile* document) override {
         std::cout << "FormatAnalyzer -> TextFile\n";
