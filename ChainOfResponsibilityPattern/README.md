@@ -243,11 +243,8 @@ Two UML diagrams were created.
 
 ### Classic Chain of Responsibility UML
 
-File:
+<img width="2763" height="1771" alt="Screenshot 2026-08-15 125646" src="https://github.com/user-attachments/assets/752ac538-ad92-40f0-8ad2-246a8342479d" />
 
-```text
-chain-of-responsibility-uml.svg
-```
 
 This UML represents the classic object-oriented version using:
 
@@ -259,7 +256,8 @@ This UML represents the classic object-oriented version using:
 
 ### Delegate-Based Pipeline UML
 
-File:
+
+<img width="2836" height="1784" alt="image" src="https://github.com/user-attachments/assets/abe5538c-c783-4ed8-a773-b56eab83b49f" />
 
 ```text
 delegate-based-pipeline-uml.svg
